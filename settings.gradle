@@ -1,0 +1,4 @@
+rootProject.name = 'micronaut-intellij-annotation-visitor'
+include 'server-annotation-processor'
+include 'server'
+

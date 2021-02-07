@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform("io.micronaut:micronaut-bom:2.3.1")
+    implementation "io.micronaut:micronaut-inject"
+    implementation "io.micronaut:micronaut-http-netty"
+    implementation "io.micronaut:micronaut-runtime"
+}
+
+test {
+    useJUnitPlatform()
+}
